@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
-</head>
-<body>
-    <header>
-       
-    </header>
-    <main></main>
-    <footer></footer>
-</body>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet"
+            type="text/css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar bg-base-100 px-[20px] lg:px-[100px]  ">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button"
+                                class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                            </div>
+                            <ul
+                                tabindex="-1"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                <li><a>About us</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Use Cases</a></li>
+                                <li><a>Pricing</a></li>
+                                <li><a>Blog</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-fit h-[20px]">
+                                <img class="w-[100%] h-[100%]"
+                                    src="./desktop/Icon.svg">
+                            </div>
+                            <div class="w-fit h-[20px]">
+                                <img class="w-[100%] h-[100%]"
+                                    src="./desktop/Positivus.svg">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <ul class="menu menu-horizontal px-1 hidden lg:flex">
+                            <li><a class="font-[space-grotesk]">About us</a></li>
+                            <li><a class="font-[space-grotesk]">Services</a></li>
+                            <li><a class="font-[space-grotesk]">Use Cases</a></li>
+                            <li><a class="font-[space-grotesk]">Pricing</a></li>
+                            <li><a class="font-[space-grotesk]">Blog</a></li>
+                        </ul>
+                        <button class="btn btn-neutral btn-outline font-[space-grotesk]">Request a
+                            quote</button>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <main></main>
+        <footer></footer>
+    </body>
 </html>
